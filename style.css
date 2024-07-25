@@ -15,7 +15,7 @@
     margin-left: 20px;
 }
 
-.searchbtn{
+.mainboss > .searchbtn{
     height: 40px;
     width: 250px;
     text-align: center;
@@ -27,7 +27,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.searchbtn:hover{
+.mainboss > .searchbtn:hover{
     background: none;
     transition: 0.5s;
 }
