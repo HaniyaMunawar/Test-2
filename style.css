@@ -345,12 +345,6 @@
     margin-bottom: 30px;
   }
 
-  .clients > .container > .row > .col-12 > .box > h4 {
-    color: #0051d2;
-    font-family: ibm, serif;
-    margin-top: 30px;
-  }
-  
   .clients > .container > .row > .col-12 > .box > .para {
     margin-top: -7px;
     text-decoration: underline;
@@ -360,6 +354,12 @@
     border: 1px solid #dadada;
     width: 97%;
     padding: 40px 30px;
+  }
+
+  .clients > .container > .row > .col-12 > .box > h4 {
+    color: #0051d2;
+    font-family: ibm, serif;
+    margin-top: 30px;
   }
   
   .clients > .container > .row > .col-12 {
@@ -452,8 +452,17 @@
     margin-bottom: 30px;
     color: #0051d2;
   }
+  
+  .compersion .container-fluid > .row > .right > .dolor > span {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .compersion .container-fluid > .row > .right > .btn > .white {
+    background: none;
+  }
 
-  .compersion .container-fluid > .row > .right > .btn {
+.compersion .container-fluid > .row > .right > .btn {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -467,20 +476,11 @@
     font-size: 17px;
   }
   
-  .compersion .container-fluid > .row > .right > .dolor > span {
-    font-size: 18px;
-    font-family: "Times New Roman", Times, serif;
-  }
-  
-  .compersion .container-fluid > .row > .right > .btn > .white {
-    background: none;
-  }
-  
   .compersion .container-fluid > .row > .right > .btn > .white:hover {
     background-color: #0051d2;
   } 
   
-  /* Blog Section */  
+  /* Blog Area */  
   .featured > .container > .row > .col-12 > .box > .text > h4:hover {
     text-decoration: underline;
   }
@@ -505,7 +505,7 @@
     font-size: 22px;
   }
   
-  /* Subscribe Section  */  
+  /* SUB  */  
   .subscribe {
     background-color: #054c94;
     width: 100%;
@@ -572,7 +572,7 @@
     border: none;
   }
   
-  /*  Footer */
+  /*  FOOTER */
   .footer > .container > .row > .col-12 > .foot > a {
     text-decoration: none;
     color: #5b5b5b;
@@ -626,8 +626,6 @@
       padding: 30px 20px;
     }
   
-    
-  
     .featured > .container > .row > .col-12 > .box > .content {
       padding: 30px 18px;
     }
@@ -655,22 +653,27 @@
         padding: 80px 15px;
       }
   
-  
     .home {
       padding: 20px;
     }
-  
-
-  
+      
     .featured {
       padding: 80px 15px;
-    }
-  
+    }  
     
     .destination {
         padding: 0 5px;
         padding-top: 40px;
         padding-bottom: 80px;
+      }
+
+          .compersion .container-fluid > .row > .right > .para {
+        width: 93%;
+        font-size: 14px;
+      }
+    
+      .compersion .container-fluid > .row > .col-12 > .list > p {
+        font-size: 14px;
       }
     
       .discount {
@@ -699,15 +702,6 @@
       padding: 25px 24px;
       padding-bottom: 10;
     }
-
-    .compersion .container-fluid > .row > .right > .para {
-        width: 93%;
-        font-size: 14px;
-      }
-    
-      .compersion .container-fluid > .row > .col-12 > .list > p {
-        font-size: 14px;
-      }
   }
   
   @media (max-width: 600px) {
@@ -737,16 +731,8 @@
     .featured > .container > .row > .col-12 > .box > .content {
       padding: 30px 20px;
     }
-  
-    .subscribe > .container > .row > .col-12 > .inputs {
-      width: 100%;
-    }
-  
-    .subscribe > .container > .row > .col-12 > .inputs > button {
-      padding: 0 15px;
-    }
-  
-    .subscribe > .container > .row > .col-12 > p {
+
+          .subscribe > .container > .row > .col-12 > p {
       width: 100%;
     }
   
@@ -758,6 +744,14 @@
       padding: 60px 20px;
     }
   
+    .subscribe > .container > .row > .col-12 > .inputs {
+      width: 100%;
+    }
+  
+    .subscribe > .container > .row > .col-12 > .inputs > button {
+      padding: 0 15px;
+    }
+    
     .footer > .container > .row > .col-12 > .foot > iframe {
       width: 100%;
       height: 130px;
